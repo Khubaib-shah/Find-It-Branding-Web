@@ -6,6 +6,7 @@ import Section from "@/components/Section";
 import TestimonialCard from "@/components/TestimonialCard";
 import Title from "@/components/Title";
 import { testimonials } from "@/Constant";
+import Image from "next/image";
 
 const Testimonials = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -50,7 +51,7 @@ const Testimonials = () => {
             onClick={() => scroll("left")}
             className="h-10"
           >
-            <img src="/arrowBtn.png" alt="Left Button" className="h-full" />
+            <Image src="/arrowBtn.png" alt="Left Button" className="h-full" />
           </motion.button>
           <motion.button
             initial={{ opacity: 0, width: 0 }}
@@ -59,7 +60,7 @@ const Testimonials = () => {
             onClick={() => scroll("right")}
             className="rotate-180 h-10"
           >
-            <img src="/arrowBtn.png" alt="Right Button" className="h-full" />
+            <Image src="/arrowBtn.png" alt="Right Button" className="h-full" />
           </motion.button>
         </div>
       </div>
