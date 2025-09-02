@@ -1,9 +1,8 @@
 # Find-It-Branding-Web
 
-A sleek, responsive landing page built with Next.js and TypeScript, perfect for branding and promotional use. Uses `next/font` for optimized font loading with the Geist font.
-
 ![Find It Landing Page](https://res.cloudinary.com/dvyhnxnpq/image/upload/v1756796778/Find_it_landing_page_gofgfs.png)
 
+A sleek, responsive landing page built with Next.js and TypeScript, perfect for branding and promotional use. Uses `next/font` for optimized font loading with the Geist font.
 ---
 
 ## Features
