@@ -1,6 +1,6 @@
 import React from "react";
 
-const Title = ({ title, className }: { title: String; className?: String }) => {
+const Title = ({ title, className }: { title: String; className?: string }) => {
   return (
     <h2
       className={`font-semibold leading-7 text-xl sm:text-3xl lg:text-4xl tracking-tighter md:tracking-tight ${
