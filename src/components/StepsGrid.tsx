@@ -5,17 +5,7 @@ import React from "react";
 import Section from "./Section";
 import { Data } from "@/Constant";
 
-type StepItem = {
-  icon: string;
-  title: string;
-  desc: string;
-};
-
-interface StepsGridProps {
-  Data: StepItem[];
-}
-
-const StepsGrid: React.FC<StepsGridProps> = () => {
+const StepsGrid = () => {
   return (
     <div className="relative grid gap-4 grid-cols-1 grid-rows-none sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-5 lg:grid-rows-5">
       {/* Center phone */}
