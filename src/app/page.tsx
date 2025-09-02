@@ -8,15 +8,13 @@ import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
-    <main className="container mx-auto min-h-screen w-full  text-gray-900">
-      <div className="px-4 lg:px-8">
-        <Hero />
-        <Exclusive />
-        <SimpleSteps />
-        <Testimonials />
-        <DownloadApp />
-        <Footer />
-      </div>
+    <main className="container mx-auto min-h-screen w-full text-gray-900 px-4 lg:px-8">
+      <Hero />
+      <Exclusive />
+      <SimpleSteps />
+      <Testimonials />
+      <DownloadApp />
+      <Footer />
     </main>
   );
 };
